@@ -1,0 +1,54 @@
+var
+    dia, desconto_base, previsao, desconto_final
+
+inicio
+    leia dia
+    leia desconto_base
+    leia previsao
+    leia desconto_final
+
+    se dia é igual 1:
+        se previsao é maior do que 1000?
+            desconto_final <- desconto_base + ((previsao-1000)/100/100)
+        senao: 
+           desconto_final <- desconto_base
+
+    se dia é igual 2:
+        se previsao é maior do que 2000?
+            desconto_final <- desconto_base + ((previsao-2000)/100/100)
+        senao: 
+           desconto_final <- desconto_base
+
+    se dia é igual 3:
+        se previsao é maior do que 3000?
+            desconto_final <- desconto_base + ((previsao-3000)/100/100)
+        senao: 
+           desconto_final <- desconto_base
+
+    se dia é igual 4:
+        se previsao é maior do que 4000?
+            desconto_final <- desconto_base + ((previsao-4000)/100/100)
+        senao: 
+           desconto_final <- desconto_base
+
+    se dia é igual 5:
+        se previsao é maior do que 5000?
+            desconto_final <- desconto_base + ((previsao-5000)/100/100)
+        senao: 
+           desconto_final <- desconto_base
+
+    se dia é igual 6:
+        se previsao é maior do que 6000?
+            desconto_final <- desconto_base + ((previsao-6000)/100/100)
+        senao: 
+           desconto_final <- desconto_base
+
+    se dia é igual 7:
+        se previsao é maior do que 7000?
+            desconto_final <- desconto_base + ((previsao-7000)/100/100)
+        senao: 
+           desconto_final <- desconto_base
+
+    escreva "O desconto final é de: (desconto_final)"
+    
+fim
